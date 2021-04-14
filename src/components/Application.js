@@ -9,7 +9,7 @@ class Application extends Component {
           <Header />
         </div>
         <Inventory />
-        <Inventory />
+        <Order />
       </div>
     );
   }
