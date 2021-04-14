@@ -1,12 +1,16 @@
 import React, { Component } from "react";
-//import { render } from "react-dom";
 
 class StorePicker extends Component {
   render() {
     return (
-      <div>
-        <h1>This is a great day</h1>
-      </div>
+      <React.Fragment>
+        <form className="store-selector">
+          {/* This is a block comment */}
+          <h2>Please Enter a Store</h2>
+          <input type="text" required placeholder="Store Name" />
+          <button type="submit">Visit Store -></button>
+        </form>
+      </React.Fragment>
     );
   }
 }
